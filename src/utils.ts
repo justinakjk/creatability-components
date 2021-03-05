@@ -142,8 +142,7 @@ export const setBooleanAttribute = (el: Element, attr: string, isTrue: boolean)=
  * Convert a camelCase string to a lowercase hyphenated string
  * i.e. myFunVariable becomes my-fun-variable
  * @param camelString the camel-case string to convert to a hyphenated string
- */
-export const camelCaseToHyphenated = ( camelString: string ) =>
+ */st camelCaseToHyphenated = ( camelString: string ) =>
     camelString.replace( /([a-z])([A-Z])/g, '$1-$2' ).toLowerCase();
 
 
