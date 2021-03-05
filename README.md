@@ -158,8 +158,7 @@ The tutorial element gives you a simple slide show. It extends `AbstractModal` s
     <acc-slide
         caption="Just play around – try different voices, scales, and more."
         video="assets/s4.mp4"></acc-slide>
-</acc-tutorial>
-```
+        
 
 ## Contributors
 * [Kyle Phillips](https://github.com/hapticdata)
